@@ -88,8 +88,6 @@ function youGottaCalmDown(shout) {
   return shout.slice(0, index + 1);
 }
 
-console.log(youGottaCalmDown("HI!!!!!!!!!!"));
-
 module.exports = {
   isArrayLengthOdd,
   isArrayLengthEven,
